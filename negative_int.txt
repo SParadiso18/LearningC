@@ -1,0 +1,5 @@
+   Negative integers are stored as bit strings almost exactly the same but inversly to that of positive integers. The odometer analogy still comes into play, however, rollover is indicated by the removal of the '-' symbol when allocated space is full. Another noteable difference is that when working with Long Integer,
+we have 64 bits instead of 32 from Unsigned Integer.
+   The algorithm used to determine this was exactly the same as that of positive integers; simple trial and error while keeping a keen eye on the changes in binary values as different inputs were tested.
+   As mentioned above, when increaseing the negative value beyond the number of bits used to store it the '-' will be removed indicating the so called 'rollover' of bits.
+
